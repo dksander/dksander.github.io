@@ -1,0 +1,10 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+*.log
+.frontmatter/
+frontmatter.json
+.sass-cache/

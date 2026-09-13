@@ -1,0 +1,18 @@
+title: dksander
+description: Blog about code, Business Central/AL, and other projects
+theme: minima
+permalink: /:year/:month/:day/:title/
+safe: true
+whitelist:
+  - jekyll-seo-tag
+
+github_username: dksander
+
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/dksander" }
+
+markdown: kramdown
+kramdown:
+  input: GFM
