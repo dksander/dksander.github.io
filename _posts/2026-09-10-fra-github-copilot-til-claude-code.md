@@ -5,7 +5,9 @@ date: 2026-09-10 12:00:00 +0200
 categories: ai udvikling
 ---
 
-Welcome to the first real post on this blog. I figured I'd start with something I've been chewing on myself for a while: my switch from GitHub Copilot to Claude Code.
+*The following blog post was written with the help of AI.*
+
+I figured I'd start with something I've been chewing on myself for a while: my switch from GitHub Copilot to Claude Code.
 
 ## Why I started with GitHub Copilot
 
@@ -37,5 +39,3 @@ So the conclusion is that I'm now taking the leap and getting started with Claud
 So yeah — here we go 🙂
 
 I expect to write more about the experience along the way. Both what works really well, and what takes a bit of getting used to when coming from Copilot and starting to work with Claude Code instead.
-
-*This post was written with the help of Claude AI.*
