@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="600" fill="#1f2328">GitHub job queue and self-hosted runners</text>
+
+  <!-- GitHub -->
+  <rect x="30" y="200" width="150" height="120" rx="12" fill="#24292f"/>
+  <text x="105" y="252" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">GitHub</text>
+  <text x="105" y="278" text-anchor="middle" font-size="13" fill="#d0d7de">Actions workflow</text>
+  <text x="105" y="298" text-anchor="middle" font-size="13" fill="#d0d7de">(push / PR)</text>
+
+  <!-- Queue -->
+  <text x="320" y="130" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2328">Job queue</text>
+  <rect x="235" y="145" width="170" height="270" rx="12" fill="#fff8c5" stroke="#d4a72c" stroke-width="2"/>
+  <g font-size="14" fill="#1f2328" text-anchor="middle">
+    <rect x="255" y="165" width="130" height="38" rx="6" fill="#ffffff" stroke="#d4a72c"/><text x="320" y="189">Job 1</text>
+    <rect x="255" y="213" width="130" height="38" rx="6" fill="#ffffff" stroke="#d4a72c"/><text x="320" y="237">Job 2</text>
+    <rect x="255" y="261" width="130" height="38" rx="6" fill="#ffffff" stroke="#d4a72c"/><text x="320" y="285">Job 3</text>
+    <rect x="255" y="309" width="130" height="38" rx="6" fill="#ffffff" stroke="#d4a72c"/><text x="320" y="333">Job 4</text>
+    <rect x="255" y="357" width="130" height="38" rx="6" fill="#ffffff" stroke="#d4a72c"/><text x="320" y="381">Job 5 ...</text>
+  </g>
+
+  <!-- GitHub -> queue -->
+  <line x1="182" y1="260" x2="233" y2="260" stroke="#57606a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="207" y="250" text-anchor="middle" font-size="12" fill="#57606a">queues</text>
+
+  <!-- Server 1 -->
+  <rect x="520" y="70" width="440" height="190" rx="12" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+  <text x="540" y="100" font-size="17" font-weight="600" fill="#0550ae">Server 1</text>
+  <g font-size="14" text-anchor="middle" fill="#1f2328">
+    <rect x="540" y="120" width="90" height="56" rx="8" fill="#ffffff" stroke="#0969da"/><text x="585" y="153">Runner 1</text>
+    <rect x="640" y="120" width="90" height="56" rx="8" fill="#ffffff" stroke="#0969da"/><text x="685" y="153">Runner 2</text>
+    <rect x="740" y="120" width="90" height="56" rx="8" fill="#ffffff" stroke="#0969da"/><text x="785" y="153">Runner 3</text>
+    <rect x="840" y="120" width="90" height="56" rx="8" fill="#ffffff" stroke="#0969da"/><text x="885" y="153">Runner 4</text>
+  </g>
+  <text x="740" y="220" text-anchor="middle" font-size="13" fill="#57606a">4 runners, each takes one job at a time</text>
+
+  <!-- Server 2 -->
+  <rect x="520" y="300" width="440" height="190" rx="12" fill="#dafbe1" stroke="#1a7f37" stroke-width="2"/>
+  <text x="540" y="330" font-size="17" font-weight="600" fill="#116329">Server 2</text>
+  <g font-size="14" text-anchor="middle" fill="#1f2328">
+    <rect x="540" y="350" width="90" height="56" rx="8" fill="#ffffff" stroke="#1a7f37"/><text x="585" y="383">Runner 1</text>
+    <rect x="640" y="350" width="90" height="56" rx="8" fill="#ffffff" stroke="#1a7f37"/><text x="685" y="383">Runner 2</text>
+    <rect x="740" y="350" width="90" height="56" rx="8" fill="#ffffff" stroke="#1a7f37"/><text x="785" y="383">Runner 3</text>
+    <rect x="840" y="350" width="90" height="56" rx="8" fill="#ffffff" stroke="#1a7f37"/><text x="885" y="383">Runner 4</text>
+  </g>
+  <text x="740" y="450" text-anchor="middle" font-size="13" fill="#57606a">4 runners, each takes one job at a time</text>
+
+  <!-- Queue -> servers -->
+  <path d="M407,230 C460,230 460,165 518,165" fill="none" stroke="#57606a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M407,330 C460,330 460,395 518,395" fill="none" stroke="#57606a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="470" y="282" text-anchor="middle" font-size="12" fill="#57606a">pick up next job</text>
+
+  <text x="500" y="535" text-anchor="middle" font-size="14" fill="#57606a">8 concurrent jobs in total. Idle runners pick up the next job in the queue.</text>
+</svg>
