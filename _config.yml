@@ -40,6 +40,10 @@ footer:
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
       url: "/feed.xml"
+    - label: "Subscribe"
+      icon: "fas fa-fw fa-envelope"
+      url: "https://follow.it/dksander?leanpub"
+      new_tab: true
 
 defaults:
   - scope:
