@@ -31,6 +31,11 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dksander"
+      new_tab: true
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lars-sander-b4727466/"
+      new_tab: true
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
       url: "/feed.xml"
