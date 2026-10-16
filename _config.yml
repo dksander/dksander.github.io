@@ -1,21 +1,47 @@
 title: dksander
 description: Blog about code, Business Central/AL, DevOps, and other projects
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: dark
 permalink: /:year/:month/:day/:title/
 safe: true
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-feed
 whitelist:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
 github_username: dksander
-rss: RSS
 
-minima:
-  skin: classic
-  social_links:
-    - { platform: github, user_url: "https://github.com/dksander" }
+author:
+  name: "Lars Sander"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dksander"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lars-sander-b4727466/"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dksander"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
 
 markdown: kramdown
 kramdown:
