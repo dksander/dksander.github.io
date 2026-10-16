@@ -3,10 +3,14 @@ description: Blog about code, Business Central/AL, DevOps, and other projects
 theme: minima
 permalink: /:year/:month/:day/:title/
 safe: true
+plugins:
+  - jekyll-feed
 whitelist:
+  - jekyll-feed
   - jekyll-seo-tag
 
 github_username: dksander
+rss: RSS
 
 minima:
   skin: classic
