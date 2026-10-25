@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Day Two with Claude Code"
+description: "Day two with Claude Code: limiting myself to five skills, giving it access to my machine, and what it taught me about GitHub Copilot."
 date: 2026-09-17 12:00:00 +0200
 categories: ai udvikling
 ---

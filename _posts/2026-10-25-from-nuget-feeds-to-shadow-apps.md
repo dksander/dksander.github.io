@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From NuGet feeds to shadow apps – handling 3rd party dependencies in AL-Go"
+description: "How we handle 3rd party dependencies in AL-Go for Business Central: NuGet feeds, runtime packages in a dependencies folder, and shadow apps as a last resort."
 date: 2026-10-25 07:00:00 +0100
 categories: bc al devops
 ---

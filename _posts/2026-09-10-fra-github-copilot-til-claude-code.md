@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From GitHub Copilot to Claude Code"
+description: "Why I switched from GitHub Copilot to Claude Code as a developer – from organizational fit and pricing to letting an AI agent work on my own machine."
 date: 2026-09-10 12:00:00 +0200
 categories: ai udvikling
 ---

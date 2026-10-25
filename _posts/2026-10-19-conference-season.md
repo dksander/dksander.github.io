@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Conference season"
+description: "Why I look forward to conference season in the Business Central world – and what I hope to bring home from my fifth Directions EMEA, with a focus on AI."
 date: 2026-10-19 06:00:00 +0200
 categories: bc al
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AL-Go for GitHub – our journey to 100+ repos"
+description: "How we moved from Azure DevOps to AL-Go for GitHub, run self-hosted runners for Business Central builds, and the challenge of keeping 100+ AL-Go repos up to date."
 date: 2026-10-15 07:00:00 +0200
 categories: bc al devops
 ---

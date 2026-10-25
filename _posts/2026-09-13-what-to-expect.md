@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What to expect?"
+description: "What this blog is about: my thoughts on Business Central, AL, DevOps and AI-assisted development – and how I write the posts."
 date: 2026-09-13 08:00:00 +0200
 categories: meta
 ---

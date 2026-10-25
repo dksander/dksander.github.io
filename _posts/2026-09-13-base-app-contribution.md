@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Base App Contribution"
+description: "My two experiences contributing to the Business Central Base App on GitHub – from a missing ApplicationArea to a pull request in BCApps."
 date: 2026-09-13 10:00:00 +0200
 categories: bc al
 ---

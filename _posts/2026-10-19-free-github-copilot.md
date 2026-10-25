@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Free GitHub Copilot?"
+description: "GitHub's free Copilot plan explained: what the 'Your free Copilot access is ready' email means, what's included, and AI commit messages in VS Code."
 date: 2026-10-19 08:00:00 +0200
 categories: ai udvikling
 ---

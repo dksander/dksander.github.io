@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Day three - aaaaaaand some more days"
+description: "A few weeks with Claude Code: what I still miss from GitHub Copilot, why Claude became my daily driver, and a rant about the developers of the future."
 date: 2026-10-05 07:00:00 +0200
 categories: ai udvikling
 ---
