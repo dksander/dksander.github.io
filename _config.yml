@@ -1,5 +1,6 @@
 title: dksander
 description: Blog about code, Business Central/AL, DevOps, and other projects
+og_image: /assets/og-image.png
 url: "https://dksander.dev"
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: dark
